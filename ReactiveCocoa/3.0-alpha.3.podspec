@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author       = { "Josh Abernathy" => "josh@github.com" }
   s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.10"
-  s.source       = { :git => "https://github.com/ReactiveCocoa/ReactiveCocoa", :tag => "v#{s.version}" }
+  s.source       = { :git => "https://github.com/ReactiveCocoa/ReactiveCocoa.git", :tag => "v#{s.version}" }
   s.default_subspec = "UI"
 
   s.subspec "no-arc" do |ss|
